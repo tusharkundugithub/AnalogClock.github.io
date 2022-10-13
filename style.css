@@ -1,0 +1,48 @@
+*{
+    background: url(img2.png) no-repeat;
+    background-size:cover;
+}
+
+#clock-Contanar{
+   position: relative;
+    height: 50vh;
+    width: 50vh;
+    background: url(IMG1.jpg) no-repeat;
+    background-size: 100%;
+    margin: auto;
+    border-radius: 30%;
+    padding: 5%;
+    
+}
+#hour,#minute,#second{
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 2%;
+    height: 28%;
+    top: 22.24%;
+    left: 48.1%;
+    background: black;
+ 
+    
+    
+}
+#minute{
+    width: 1.5%;
+    height: 30.25%;
+    top: 20%;
+    left: 48.2%;
+    background: rgb(140, 140, 226);
+ 
+    
+}
+#second{
+    width: 1%;
+    height: 40%;
+    top: 10%;
+    left: 48.55%;
+    background: red;
+     
+}
